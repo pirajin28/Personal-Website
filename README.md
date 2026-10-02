@@ -1,5 +1,7 @@
 # PIRAJIN Personal Site
 
+WARNING - DO NOT CHANGE ANYTHING IN THE WEBSITE, THIS IS ONLY FOR VIEWING AND NOT FOR EDITING... ANY EDITOR WILL FACE SERIOUS CONSEQUENCES...
+
 A dark space/cyberpunk personal website with a private admin panel.
 
 ## Run locally
