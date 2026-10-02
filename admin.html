@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>PIRAJIN — Admin Panel</title>
+  <link rel="stylesheet" href="/static/admin.css?v=2">
+</head>
+<body>
+<header class="admin-top">
+  <div class="brand">◉ PIRAJIN <span>| ADMIN PANEL</span></div>
+  <div><a href="/" target="_blank">View Public Site</a><a href="/logout">Logout</a></div>
+</header>
+
+<div class="admin-layout">
+<aside class="sidebar">
+  <button class="active" data-tab="profile">⌂ Profile</button>
+  <button data-tab="projects">▣ Projects</button>
+  <button data-tab="timeline">◷ Timeline</button>
+  <button data-tab="links">↗ Links</button>
+</aside>
+
+<main class="admin-main">
+  <h1>Edit Your Website</h1>
+  <p class="muted">Change the content here. You do not need to edit the website code.</p>
+
+  <section class="panel tab" id="tab-profile">
+    <h2>Profile Information</h2>
+    <label>Name<input id="name"></label>
+    <label>Tagline<input id="tagline"></label>
+    <label>Banner<textarea id="banner" rows="2"></textarea></label>
+    <label>Bio <small>Short text shown beside your profile photo</small><textarea id="bio" rows="4"></textarea></label>
+    <label>About Me <small>Longer text shown in the About Me section</small><textarea id="about_me" rows="6"></textarea></label>
+    <label>Tags <small>comma separated</small><input id="tags"></label>
+    <label>Profile Photo</label>
+    <div class="upload-box">
+      <img id="profile-preview" class="photo-preview" src="" alt="Profile preview">
+      <input id="profile-photo-file" type="file" accept="image/*">
+      <button type="button" onclick="uploadProfilePhoto()">Upload Profile Photo</button>
+    </div>
+    <button class="save" onclick="saveAll()">SAVE CHANGES</button>
+  </section>
+
+  <section class="panel tab hidden" id="tab-projects">
+    <div class="panel-heading"><h2>Manage Projects</h2><button onclick="addProject()">+ Add Project</button></div>
+    <div id="projects-editor"></div>
+  </section>
+
+  <section class="panel tab hidden" id="tab-timeline">
+    <div class="panel-heading"><h2>Timeline</h2><button onclick="addTimeline()">+ Add Event</button></div>
+    <div id="timeline-editor"></div>
+  </section>
+
+  <section class="panel tab hidden" id="tab-links">
+    <div class="panel-heading"><h2>Links</h2><button onclick="addLink()">+ Add Link</button></div>
+    <div id="links-editor"></div>
+  </section>
+
+  <button class="save big-save" onclick="saveAll()">SAVE EVERYTHING</button>
+  <div id="message"></div>
+</main>
+</div>
+<script src="/static/admin.js?v=2"></script>
+</body>
+</html>

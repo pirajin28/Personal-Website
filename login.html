@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PIRAJIN Admin Login</title><link rel="stylesheet" href="/static/admin.css"></head>
+<body class="login-page">
+<form class="login-card" method="post">
+  <div class="brand">◉ PIRAJIN</div>
+  <h1>ADMIN ACCESS</h1>
+  <p>Private control panel.</p>
+  <input type="password" name="password" placeholder="Admin password" required autofocus>
+  <button type="submit">ENTER PANEL</button>
+  {% if error %}<div class="error">{{ error }}</div>{% endif %}
+</form>
+</body>
+</html>

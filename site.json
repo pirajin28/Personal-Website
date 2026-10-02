@@ -1,0 +1,84 @@
+{
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/pirajin28"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/pirajin.p/"
+    }
+  ],
+  "profile": {
+    "about_me": "I'm a student teenager who likes taking things apart, figuring out how they work, and then asking: “What if I built my own?”... I came into this field because of Hack-club which is a non - profit organization by teens and for teens... Go check it out. And I got my very own interest in this field and wanted to learn more and improve myself...",
+    "banner": "I'm a guy of 5 GB RAM & with 50 tabs of dreams open...",
+    "bio": "I build things, break them, learn from them, and then build something better.\nCheck out my GitHub and Instagram accounts below\nG-Mail  -  pirajin28@gmail.com",
+    "name": "PIRAJIN",
+    "photo": "/static/uploads/profile.png",
+    "tagline": "Student • Maker • Developer",
+    "tags": [
+      "AI",
+      "Electronics",
+      "Programming",
+      "Robotics",
+      "Game Dev",
+      "Hardware",
+      "Software....."
+    ]
+  },
+  "projects": [
+    {
+      "banner": "",
+      "description": "A personal AI assistant inspired from IRONMAN..",
+      "progress": 15,
+      "status": "In Development",
+      "title": "J.A.R.V.I.S."
+    },
+    {
+      "banner": "",
+      "description": "A browser-based operating system interface.",
+      "progress": 0,
+      "status": "Planning",
+      "title": "WebOS"
+    },
+    {
+      "banner": "",
+      "description": "A custom controller using ESP32 and sensors.",
+      "progress": 100,
+      "status": "Completed",
+      "title": "DIY Joystick"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Projects",
+      "value": "06"
+    },
+    {
+      "label": "Ideas",
+      "value": "∞"
+    },
+    {
+      "label": "Building",
+      "value": "2026"
+    }
+  ],
+  "timeline": [
+    {
+      "text": "Started experimenting theoretically..",
+      "year": "2024"
+    },
+    {
+      "text": "Started to plan projects and made many ideas...",
+      "year": "2025"
+    },
+    {
+      "text": "Started building my ideas one by one and made them real...",
+      "year": "2026"
+    },
+    {
+      "text": "Still building...",
+      "year": "NOW"
+    }
+  ]
+}

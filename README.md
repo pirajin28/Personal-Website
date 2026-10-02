@@ -27,4 +27,6 @@ http://127.0.0.1:8000/admin
 Put your profile photo at:
 `static/profile.jpg`
 
-The admin panel currently edits profile text, tags, projects, project status/progress, timeline, and links without changing the HTML/CSS.
+The admin panel currently edits profile text, separate Bio/About Me text, tags, profile photo, projects, project status/progress, project banners, timeline, and links without changing the HTML/CSS.
+
+The project count and current year shown in the public site's stats are calculated automatically.
