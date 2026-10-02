@@ -1,0 +1,103 @@
+{
+  "profile": {
+    "name": "PIRAJIN",
+    "tagline": "Student • Maker • Developer",
+    "banner": "I am a guy of 5gb ram and with 50tabs of dream open...",
+    "bio": "I build things, break them, learn from them, and then build something better.",
+    "photo": "/static/profile.jpg",
+    "tags": [
+      "AI",
+      "Electronics",
+      "Programming",
+      "Robotics",
+      "Game Dev"
+    ],
+    "about_me": "I'm a student who likes taking things apart, figuring out how they work, and then asking: “What if I built my own?”"
+  },
+  "stats": [
+    {
+      "value": "06",
+      "label": "Projects"
+    },
+    {
+      "value": "∞",
+      "label": "Ideas"
+    },
+    {
+      "value": "2026",
+      "label": "Building"
+    }
+  ],
+  "projects": [
+    {
+      "title": "J.A.R.V.I.S.",
+      "description": "A personal AI assistant inspired by intelligent fictional systems.",
+      "status": "In Development",
+      "progress": 80,
+      "banner": ""
+    },
+    {
+      "title": "WarioWare",
+      "description": "A collection of fast-paced browser mini-games.",
+      "status": "In Development",
+      "progress": 40,
+      "banner": ""
+    },
+    {
+      "title": "Blare",
+      "description": "An experimental software project.",
+      "status": "In Development",
+      "progress": 60,
+      "banner": ""
+    },
+    {
+      "title": "WebOS",
+      "description": "A browser-based operating system interface.",
+      "status": "In Development",
+      "progress": 55,
+      "banner": ""
+    },
+    {
+      "title": "Hack Pad",
+      "description": "A custom digital workspace for projects and experiments.",
+      "status": "In Development",
+      "progress": 30,
+      "banner": ""
+    },
+    {
+      "title": "DIY Joystick",
+      "description": "A custom controller using ESP32 and sensors.",
+      "status": "Planning",
+      "progress": 65,
+      "banner": ""
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2024",
+      "text": "Started experimenting with technology and building small projects."
+    },
+    {
+      "year": "2025",
+      "text": "Built bigger projects and explored new ideas."
+    },
+    {
+      "year": "2026",
+      "text": "AI, electronics, software and real experiments."
+    },
+    {
+      "year": "NOW",
+      "text": "Still building..."
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/"
+    }
+  ]
+}
