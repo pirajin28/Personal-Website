@@ -24,7 +24,7 @@ Public site:
 http://127.0.0.1:8000
 
 Admin:
-http://127.0.0.1:8000/admin
+Not Allowed...
 
 Put your profile photo at:
 `static/profile.jpg`
